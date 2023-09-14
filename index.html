@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert degrees celsius</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="main">
+            <h1>Convert degrees celsius</h1>
+            <input type="text" id="celsius" value="" placeholder="°C" onkeydown="degrees()">
+            <button onclick="myFunc()">Convert !</button>
+            <p>Farenheit : <span id="fahrenheit"></span> °F</p>
+            <p>Kelvin : <span id="kelvin"></span> K</p>
+            <p>Rankine : <span id="rankine"></span> °R</p>
+        </div>
+        <div id="alert">
+            <button onclick="closeAlert()" id="btnClose">X</button>
+            <h2>Attention</h2>
+            <p>Please make sure to enter a valid number.</p>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
