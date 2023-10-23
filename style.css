@@ -123,6 +123,13 @@ input::placeholder {
     .main {
       width: auto;
     }
+    #alert {
+        width: 95%;
+    }
+    #alert button {
+        left: 50%;
+        transform: translateX(-90%);
+    }
     
 }
 @media screen and (max-width: 780px){
